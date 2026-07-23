@@ -1,8 +1,8 @@
 import { Tabs } from 'expo-router';
-import { Platform, Text } from 'react-native';
+import { Platform, Text, type ColorValue } from 'react-native';
 import { C } from '@/src/ui';
 
-const icon = (symbol: string) => ({ color }: { color: string }) => <Text style={{ color, fontSize: 18, fontWeight: '900' }}>{symbol}</Text>;
+const icon = (symbol: string) => ({ color }: { color: ColorValue }) => <Text style={{ color, fontSize: 18, fontWeight: '900' }}>{symbol}</Text>;
 
 export default function TabLayout() {
   return <Tabs initialRouteName="live" screenOptions={{
