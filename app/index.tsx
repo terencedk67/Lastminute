@@ -24,6 +24,6 @@ const styles = StyleSheet.create({
   copy: { fontSize: 15, lineHeight: 21, color: C.ink, maxWidth: 280, marginTop: 14, marginBottom: 18 },
   hero: { flex: 1, minHeight: 390, justifyContent: 'flex-end', marginHorizontal: -20, marginBottom: -18 },
   heroImage: { resizeMode: 'cover' },
-  fade: { ...StyleSheet.absoluteFillObject, backgroundColor: 'rgba(10,8,5,0.13)' },
+  fade: { position: 'absolute', top: 0, right: 0, bottom: 0, left: 0, backgroundColor: 'rgba(10,8,5,0.13)' },
   actions: { padding: 20, paddingBottom: 28, backgroundColor: 'rgba(244,240,232,0.84)' },
 });
