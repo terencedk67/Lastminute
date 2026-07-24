@@ -1,0 +1,25 @@
+{
+  "expo": {
+    "name": "LASTMINUTE",
+    "slug": "lastminute",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "scheme": "lastminute",
+    "userInterfaceStyle": "light",
+    "plugins": ["expo-router"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "nl.lastminute.app"
+    },
+    "android": {
+      "package": "nl.lastminute.app"
+    },
+    "web": {
+      "output": "single",
+      "name": "LASTMINUTE"
+    },
+    "experiments": {
+      "typedRoutes": false
+    }
+  }
+}
